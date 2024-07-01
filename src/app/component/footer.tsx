@@ -9,13 +9,13 @@ const Footer = () => {
     <div className="bg-blue-50 font-serif">
       <footer className="text-gray-600 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a className=" flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image
               src={require("../../../public/assests/pictures/portfolio.jpg")}
               width={180}
               height={180}
               alt="My Portfolio"
-              className="w-[300px] h-[110px]"
+              className="w-[300px] rounded-3xl h-[110px]"
             />
             <span className="ml-7 font-bold font-serif text-2xl">
               MY
