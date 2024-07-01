@@ -24,14 +24,14 @@ const About = () => {
             </h1>
             <div className="mb-8 leading-relaxed">
               <p className="mb-4 font-serif ">
-                👋 Hello! I'm
+                👋 Hello! I am
                 <span className="text-black ml-3 font-serif ">
                   Hooriya Muhammad Fareed
                 </span>
               </p>
               <p className="mb-4">
-                I'm a passionate Full Stack Developer with a backend focus and a
-                passion for Generative AI 🚀. I excel in creating scalable,
+                I am a passionate Full Stack Developer with a backend focus and a
+                passion for Generative AI 🚀.I excel in creating scalable,
                 efficient web solutions by integrating state-of-the-art
                 technologies and AI into enterprise-level applications.
               </p>
@@ -62,13 +62,13 @@ const About = () => {
                 Tailwind CSS
               </p>
               <p className="mb-4 font-serif ">
-                📬 Let's Collaborate: I'm always excited to take on new
-                projects, collaborations, and discussions. Let's connect and
+                📬 Lets Collaborate: I am always excited to take on new
+                projects, collaborations, and discussions. Lets connect and
                 explore how we can work together to create something
                 exceptional!
               </p>
               <p className="mb-4 font-serif ">
-                Ready to elevate your web presence? Let's make it happen
+                Ready to elevate your web presence? Lets make it happen
                 together!
               </p>
               <span className="text-black">Email:👇</span>

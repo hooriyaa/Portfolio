@@ -28,11 +28,11 @@ const Hero = () => {
           <p className="mb-8 leading-relaxed text-white font-serif">
             Hello!
             <span className="text-black ml-2 font-serif ">
-              I'm Hooriya Muhammad Fareed
+              I am Hooriya Muhammad Fareed
             </span>
             <br />
-            I'm a Full Stack Developer with a backend focus and a passion for
-            Generative AI . I excel in creating scalable, efficient web
+            I am a Full Stack Developer with a backend focus and a passion for
+            Generative AI .I excel in creating scalable, efficient web
             solutions by integrating state-of-the-art technologies and AI into
             enterprise-level applications.
           </p>
