@@ -29,14 +29,16 @@ const Footer = () => {
             © 2020 MY PORTFOLIO
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <Link target="_blank"
+            <Link
+              target="_blank"
               href={"https://github.com/hooriyaa"}
               className="text-gray-500 text-3xl hover:text-[#0a0a0a]"
             >
               <ImGithub />
             </Link>
 
-            <Link  target="_blank"
+            <Link
+              target="_blank"
               href={
                 "https://www.linkedin.com/in/hooriya-muhammad-fareed-57a320302/"
               }
