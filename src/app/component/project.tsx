@@ -9,8 +9,8 @@ const Project = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-5xl  text-5xl font-serif font-bold title-font mb-4 text-gray-900">
-              My{" "}
-              <span className=" text-5xl text-blue-700 sm:text-5xl font-serif font-bold">
+              My
+              <span className=" text-5xl ml-3 text-blue-700 sm:text-5xl font-serif font-bold">
                 Projects
               </span>
             </h1>

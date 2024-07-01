@@ -17,10 +17,9 @@ const Footer = () => {
               alt="My Portfolio"
               className="w-[300px] h-[110px]"
             />
-            <span className="ml-3 font-bold font-serif text-2xl">
+            <span className="ml-7 font-bold font-serif text-2xl">
               MY
-              <span className=" font-bold font-serif text-2xl text-blue-700">
-                {" "}
+              <span className=" font-bold ml-2 font-serif text-2xl text-blue-700">
                 PORTFOLIO
               </span>
             </span>
