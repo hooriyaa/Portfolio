@@ -1,10 +1,20 @@
-import Image from "next/image";
+
+import Hero from "./component/hero";
+import Contact from "./component/contact";
+import Project from "./component/project";
+import About from "./component/about";
+import Skills from "./component/skills";
+
 
 export default function Home() {
   return (
 <div>
-  <h1>Hello world</h1>
-  <p>hello</p>
+ <Hero/>
+ <About/>
+ <Skills/>
+ <Project/>
+ <Contact/>
+
 </div>
   );
 }

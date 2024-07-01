@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-image{
+    background-image: url(../../public/assests/pictures/background_pic.jpg);
+}
