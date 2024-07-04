@@ -15,11 +15,11 @@ const Footer = () => {
             width={180}
             height={180}
             alt="My Portfolio"
-            className="w-[300px] rounded-3xl h-[110px]"
+            className="w-[210px] rounded-3xl h-[95px]"
           />
-        <span className="ml-3  font-bold text-[24px] font-serif ">
+        <span className="ml-3 font-bold text-xl inline-flex font-serif ">
           MY
-            <span className=" font-bold ml-2 font-serif  text-[24px]  text-blue-700">
+            <span className=" font-bold ml-2 font-serif inline-flex  text-xl  text-blue-700">
               PORTFOLIO
             </span>
             </span>
