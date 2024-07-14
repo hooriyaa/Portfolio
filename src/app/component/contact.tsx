@@ -15,7 +15,7 @@ const Contact = () => {
               marginHeight={0}
               marginWidth={0}
               scrolling="no"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7210.243129712092!2d68.3448785880331!3d25.367241960407195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70638dba1d81%3A0x1cef74197b820b62!2sLatifabad%20Unit%206%20Latifabad%2C%20Hyderabad%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1719681216333!5m2!1sen!2s"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7367.904312537491!2d68.3657568895067!3d25.40488017051715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c70db4fff1b5d%3A0xa2537a4a0cc35b09!2sHeerabad%2C%20Hyderabad%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1720962898844!5m2!1sen!2s" 
               style={{ filter: "contrast(1.2) opacity(0.4)" }}
             />
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <h2 className="title-font font-semibold font-serif  text-gray-900 tracking-widest text-xs">
                   ADDRESS
                 </h2>
-                <p className="mt-1 font-serif ">latifabad unit #6, hyderabad, sindh.</p>
+                <p className="mt-1 font-serif ">Heerabad, hyderabad, sindh.</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold font-serif  text-gray-900 tracking-widest text-xs">
