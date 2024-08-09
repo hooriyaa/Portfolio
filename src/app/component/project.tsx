@@ -17,7 +17,7 @@ const Project = () => {
           </div>
           <div className="flex flex-wrap -m-5 -mt-[5rem]">
             {/* Project */}
-            <div className="lg:w-1/2 sm:w-1/2 p-4 cursor-pointer">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
                   alt="gallery"
@@ -48,7 +48,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 sm:w-1/2 p-4 cursor-pointer">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
                   alt="gallery"
@@ -72,6 +72,39 @@ const Project = () => {
                     target="_blank"
                     href={
                       "https://calculator-by-hooriya-muhammad-fareed.netlify.app/"
+                    }
+                  >
+                    <p className="leading-relaxed font-serif text-blue-500 hover:underline">
+                      View Project..
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <Image
+                  alt="gallery"
+                  className="absolute inset-0 h-full w-full object-cover object-center"
+                  src={require("../../../public/assests/projects/amazon_clone.jpg.png")}
+                />
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
+                    Amazon Clone Project
+                  </h2>
+                  <h1 className="title-font text-lg font-serif font-medium text-gray-900 mb-3">
+                    Amazon Clone
+                  </h1>
+                  <p className="leading-relaxed font-serif line-clamp-3">
+                    I recreated the Amazon homepage using only HTML and CSS,
+                    highlighting sleek design and responsive layouts. It is a
+                    powerful example of what can be achieved with pure front-end
+                    skills.
+                  </p>
+                  <Link
+                    target="_blank"
+                    href={
+                      "https://amazon-clone-project-by-hooriya.netlify.app/"
                     }
                   >
                     <p className="leading-relaxed font-serif text-blue-500 hover:underline">
