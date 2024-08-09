@@ -17,7 +17,7 @@ const Project = () => {
           </div>
           <div className="flex flex-wrap -m-5 -mt-[5rem]">
             {/* Project */}
-            <div className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer">
+            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
                   alt="gallery"
@@ -48,7 +48,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer">
+            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
                   alt="gallery"
@@ -81,7 +81,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer">
+            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
                   alt="gallery"
