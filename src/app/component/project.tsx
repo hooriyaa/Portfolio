@@ -26,8 +26,6 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt=" Facebook Login Page Clone"
-                  width={500}
-                  height={500}
                   className="absolute inset-0 h-full w-full object-contain object-center"
                   src={image1}
                 />
@@ -59,8 +57,6 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt="Calculator Web App"
-                  width={500}
-                  height={500}
                   className="absolute inset-0 h-full w-full object-contain object-center"
                   src={image2}
                 />
@@ -94,8 +90,6 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt=" Amazon Clone"
-                  width={500}
-                  height={500}
                   className="absolute inset-0 h-full w-full object-contain object-center"
                   src={image3}
                 />
@@ -129,8 +123,6 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt=" E-commerce Website "
-                  width={500}
-                  height={500}
                   className="absolute inset-0 h-full w-full object-contain object-center"
                   src={image4}
                 />
