@@ -1,6 +1,6 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { ImGithub } from "react-icons/im";
 import { ImLinkedin } from "react-icons/im";
 

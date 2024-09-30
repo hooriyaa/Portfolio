@@ -1,4 +1,9 @@
+"use client";
 import Image from "next/image";
+import image1 from "../../../public/assests/projects/facebook_login_page_clone.png";
+import image2 from "../../../public/assests/projects/calculator.png";
+import image3 from "../../../public/assests/projects/amazon_clone.jpg.png";
+import image4 from "../../../public/assests/projects/e-commerce_website.jpg.png";
 import Link from "next/link";
 import React from "react";
 
@@ -20,9 +25,11 @@ const Project = () => {
             <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
-                  className="absolute inset-0 h-full w-full object-cover object-center"
-                  src={require("../../../public/assests/projects/facebook_login_page_clone.png")}
+                  alt=" Facebook Login Page Clone"
+                  width={500}
+                  height={500}
+                  className="absolute inset-0 h-full w-full object-contain object-center"
+                  src={image1}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
@@ -51,9 +58,11 @@ const Project = () => {
             <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
-                  className="absolute inset-0 h-full w-full object-cover object-center"
-                  src={require("../../../public/assests/projects/calculator.png")}
+                  alt="Calculator Web App"
+                  width={500}
+                  height={500}
+                  className="absolute inset-0 h-full w-full object-contain object-center"
+                  src={image2}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
@@ -84,9 +93,11 @@ const Project = () => {
             <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
               <div className="flex relative">
                 <Image
-                  alt="gallery"
-                  className="absolute inset-0 h-full w-full object-cover object-center"
-                  src={require("../../../public/assests/projects/amazon_clone.jpg.png")}
+                  alt=" Amazon Clone"
+                  width={500}
+                  height={500}
+                  className="absolute inset-0 h-full w-full object-contain object-center"
+                  src={image3}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
@@ -106,6 +117,41 @@ const Project = () => {
                     href={
                       "https://amazon-clone-project-by-hooriya.netlify.app/"
                     }
+                  >
+                    <p className="leading-relaxed font-serif text-blue-500 hover:underline">
+                      View Project..
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/2 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <Image
+                  alt=" E-commerce Website "
+                  width={500}
+                  height={500}
+                  className="absolute inset-0 h-full w-full object-contain object-center"
+                  src={image4}
+                />
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
+                    E-commerce Website Project
+                  </h2>
+                  <h1 className="title-font text-lg font-serif font-medium text-gray-900 mb-3">
+                    E-commerce Website
+                  </h1>
+                  <p className="leading-relaxed font-serif line-clamp-3">
+                    I developed an e-commerce platform that integrates product
+                    data for seamless display and management. This includes 'Add
+                    to Cart' functionality and detailed product pages, alongside
+                    API routes for efficient server-side operations. The project
+                    leverages both static and dynamic pages to ensure optimal
+                    performance.
+                  </p>
+                  <Link
+                    target="_blank"
+                    href={"https://ecommerce-site-by-hooriya.netlify.app/"}
                   >
                     <p className="leading-relaxed font-serif text-blue-500 hover:underline">
                       View Project..
