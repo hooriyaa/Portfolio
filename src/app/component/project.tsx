@@ -137,11 +137,11 @@ const Project = () => {
                   </h1>
                   <p className="leading-relaxed font-serif line-clamp-3">
                     I developed an e-commerce platform that integrates product
-                    data for seamless display and management. This includes 'Add
-                    to Cart' functionality and detailed product pages, alongside
-                    API routes for efficient server-side operations. The project
-                    leverages both static and dynamic pages to ensure optimal
-                    performance.
+                    data for seamless display and management. This includes
+                    &apos;Add to Cart&apos; functionality and detailed product
+                    pages, alongside API routes for efficient server-side
+                    operations. The project leverages both static and dynamic
+                    pages to ensure optimal performance.
                   </p>
                   <Link
                     target="_blank"
