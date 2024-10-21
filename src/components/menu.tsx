@@ -14,8 +14,8 @@ export function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button className="bg-transparent text-black text-[15rem] hover:bg-transparent p-2 shadow-none focus:ring-0 focus:outline-none">
-          <TfiMenu />
+        <Button className=" text-black w-10 bg-white text-[15rem]  p-2 ">
+          <TfiMenu  />
         </Button>
       </SheetTrigger>
 

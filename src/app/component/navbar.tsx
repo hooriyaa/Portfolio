@@ -12,9 +12,9 @@ const Navbar = () => {
           {/* Flex container for heading and menu on small screens */}
           <div className="flex items-center justify-between w-full md:w-auto">
             <a className="flex title-font font-medium items-center text-gray-900">
-              <span className="ml-3 text-black text-3xl font-serif font-semibold">
+              <span className="ml-3 text-black sm:text-3xl text-2xl  font-serif font-semibold">
                 Hooriya
-                <span className="ml-3 text-3xl font-serif font-semibold text-blue-700">
+                <span className="ml-3 sm:text-3xl text-2xl font-serif font-semibold text-blue-700">
                   Fareed
                 </span>
               </span>
