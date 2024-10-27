@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import React from "react";
 import Typewriter from "typewriter-effect";
 
+
 const Hero = () => {
   return (
     <section className="text-gray-600 body-font bg-fixed bg-cover bg-center custom-image">
