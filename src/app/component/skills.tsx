@@ -115,9 +115,9 @@ const Skills = () => {
           </div>
           <div className="flex-grow">
           <div className="relative h-1 w-full bg-gray-300 ">
-                  <div className="absolute bg-blue-500 h-1 rounded-xl w-[80%]"></div>
+                  <div className="absolute bg-blue-500 h-1 rounded-xl w-[90%]"></div>
                 </div>
-                <p className="font-bold text-blue-500 text-right">80%</p>
+                <p className="font-bold text-blue-500 text-right">90%</p>
           </div>
         </div>
       </div>
