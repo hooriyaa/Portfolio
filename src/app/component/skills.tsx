@@ -91,7 +91,7 @@ const Skills = () => {
             <IoMdCheckboxOutline className="text-xl font-bold" />
             </div>
             <h2 className="text-gray-900 text-lg title-font font-medium">
-            NEXT.JS 13
+            NEXT.JS 
             </h2>
           </div>
           <div className="flex-grow">
