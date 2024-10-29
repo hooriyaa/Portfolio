@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 
@@ -6,7 +6,11 @@ const About = () => {
   return (
     <div id="About">
       <section className="text-gray-600 body-font">
-        <div  data-aos="zoom-in-right" data-aos-duration="1000"  className="container mx-auto flex flex-col md:flex-row items-center px-5 py-8 md:py-24">
+        <div
+          data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          className="container mx-auto flex flex-col md:flex-row items-center px-5 py-8 md:py-24"
+        >
           <div className="lg:w-1/2 mb-10 md:mb-0">
             <Image
               className="mx-auto w-[700px] h-[590px] rounded-full"
@@ -31,8 +35,8 @@ const About = () => {
                 </span>
               </p>
               <p className="mb-4">
-                I am a passionate Full Stack Developer with a backend focus and a
-                passion for Generative AI 🚀.I excel in creating scalable,
+                I am a passionate Full Stack Developer with a backend focus and
+                a passion for Generative AI 🚀.I excel in creating scalable,
                 efficient web solutions by integrating state-of-the-art
                 technologies and AI into enterprise-level applications.
               </p>

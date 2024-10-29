@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import React from "react";
 import Typewriter from "typewriter-effect";
-
 
 const Hero = () => {
   return (
@@ -37,14 +36,13 @@ const Hero = () => {
               <span className="text-black ml-2 font-serif">
                 I am Hooriya Muhammad Fareed
               </span>
-              <br />
-              I am a Full Stack Developer with a backend focus and a passion for
-              Generative AI. I excel in creating scalable, efficient web
-              solutions by integrating state-of-the-art technologies and AI into
-              enterprise-level applications.
+              <br />I am a Full Stack Developer with a backend focus and a
+              passion for Generative AI. I excel in creating scalable, efficient
+              web solutions by integrating state-of-the-art technologies and AI
+              into enterprise-level applications.
             </p>
             <div className="flex justify-center">
-            <Link href={"#Contact"}>
+              <Link href={"#Contact"}>
                 <button className="inline-flex text-white font-serif bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                   Contact
                 </button>

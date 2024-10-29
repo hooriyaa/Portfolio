@@ -15,7 +15,7 @@ const Project = () => {
       <section className="text-gray-600 body-font ">
         <div
           data-aos="zoom-in-up"
-          data-aos-duration="1000"
+          data-aos-duration="2000"
           className="container px-5 py-24 mx-auto"
         >
           <div className="flex flex-col text-center w-full mb-20">

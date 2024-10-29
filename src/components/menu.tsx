@@ -15,7 +15,7 @@ export function SheetDemo() {
     <Sheet>
       <SheetTrigger asChild>
         <Button className=" text-black w-10 bg-white text-[15rem]  p-2 ">
-          <TfiMenu  />
+          <TfiMenu />
         </Button>
       </SheetTrigger>
 
