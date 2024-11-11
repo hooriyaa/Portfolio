@@ -5,7 +5,7 @@ import image2 from "../../../public/assests/projects/calculator.png";
 import image3 from "../../../public/assests/projects/amazon_clone.png";
 import image4 from "../../../public/assests/projects/e-commerce_website.png";
 import image5 from "../../../public/assests/projects/blog-site.png";
-import image6 from "../../../public/assests/projects/to-do-app.png";
+import image6 from "../../../public/assests/projects/resume_builder.jpeg";
 import Link from "next/link";
 import React from "react";
 
@@ -199,20 +199,24 @@ const Project = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-serif font-medium text-blue-500 mb-1">
-                    To-do App Project
+                    Shareable-resume-builder Project
                   </h2>
                   <h1 className="title-font text-lg font-serif font-medium text-gray-900 mb-3">
-                    To-do App
+                    Shareable-resume-builder
                   </h1>
                   <p className="leading-relaxed font-serif line-clamp-3">
-                    I built a To-Do App featuring add, edit, and delete
-                    functionality for tasks. With optimized performance and a
-                    clean, responsive design, this project showcases my ability
-                    to create efficient, user-friendly applications.
+                    Created a Resume Builder using HTML, CSS, and JavaScript,
+                    featuring customizable templates that allow users to add,
+                    edit, and arrange sections for a professional resume. With a
+                    responsive design and PDF export functionality, this project
+                    showcases my skills in crafting intuitive, front-end
+                    applications.
                   </p>
                   <Link
                     target="_blank"
-                    href={"https://to-do-app-by-hooriya.netlify.app/"}
+                    href={
+                      "https://shareable-resume-builder-by-hooriya.netlify.app"
+                    }
                   >
                     <p className="leading-relaxed font-serif text-blue-500 hover:underline">
                       View Project..
