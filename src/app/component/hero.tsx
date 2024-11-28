@@ -1,8 +1,7 @@
-"use client";
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import React from "react";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
@@ -20,7 +19,11 @@ const Hero = () => {
               <br className="hidden lg:inline-block" />
               <Typewriter
                 options={{
-                  strings: ["Full Stack Developer", "Web Developer", "Programmer"],
+                  strings: [
+                    "Full Stack Developer",
+                    "Web Developer",
+                    "Programmer",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -29,9 +32,12 @@ const Hero = () => {
             <div className="w-[100px] h-[2px] bg-blue-700 mb-2"></div>
             <p className="mb-8 leading-relaxed text-white font-serif">
               Hello!
-              <span className="text-black ml-2 font-serif">I am Hooriya Muhammad Fareed</span>
-              <br />I am a Full Stack Developer with a backend focus and a passion for Generative AI. 
-              I excel in creating scalable, efficient web solutions by integrating state-of-the-art technologies and AI.
+              <span className="text-black ml-2 font-serif">
+                I am Hooriya Muhammad Fareed
+              </span>
+              <br />I am a Full Stack Developer with a backend focus and a
+              passion for Generative AI. I excel in creating scalable, efficient
+              web solutions by integrating state-of-the-art technologies and AI.
             </p>
             <div className="flex justify-center">
               <Link href={"#Contact"}>

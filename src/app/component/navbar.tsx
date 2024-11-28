@@ -20,21 +20,32 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Links */}
-        <nav className="hidden md:flex space-x-4">
-          <Link href="/" className="hover:text-gray-900">Home</Link>
-          <Link href="#About" className="hover:text-gray-900">About</Link>
-          <Link href="#Skills" className="hover:text-gray-900">Skills</Link>
-          <Link href="#Project" className="hover:text-gray-900">Projects</Link>
-          <Link href="#Contact" className="hover:text-gray-900">Contact</Link>
-        </nav>
+        <nav className="hidden md:flex space-x-4 ml-96">
+          <Link href="/" className="mr-2 hover:text-gray-800 mt-2">
+            Home
+          </Link>
+          <Link href="#About" className="mr-5 hover:text-gray-800 mt-2">
+            About
+          </Link>
+          <Link href="#Skills" className="mr-5 hover:text-gray-800 mt-2">
+            Skills
+          </Link>
+          <Link href="#Project" className="mr-5 hover:text-gray-800 mt-2">
+            Projects
+          </Link>
+          <Link href="#Contact" className="mr-5 hover:text-gray-800 mt-2">
+            Contact
+          </Link>
 
-        {/* CV Button */}
+       
+        </nav>
         <a target="_blank" href="/assests/cv/Profile (4).pdf">
-          <button className="mt-4 md:mt-0 bg-gray-100 py-2 px-4 rounded hover:bg-gray-200 flex items-center">
-            Download CV
-            <AiOutlineCloudDownload className="ml-2 text-lg" />
-          </button>
-        </a>
+            {/* CV Button */}
+            <button className="mt-4 md:mt-0 bg-gray-100 py-2 px-4 rounded hover:bg-gray-200 flex items-center ">
+              Download CV
+              <AiOutlineCloudDownload className="ml-2 text-lg" />
+            </button>
+          </a>
       </header>
     </div>
   );
