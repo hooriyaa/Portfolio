@@ -1,21 +1,10 @@
-"use client";
 import { IoMdCheckboxOutline } from "react-icons/io";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Skills = () => {
-  useEffect(() => {
-    AOS.init({
-      once: false,
-    });
-  }, []);
   return (
     <div id="Skills">
       <section className="text-gray-600 body-font">
         <div
-          data-aos="zoom-in"
-          data-aos-duration="2000"
           className="container px-5 py-19 mx-auto"
         >
           <div className="flex flex-col font-serif  text-center w-full mb-20">

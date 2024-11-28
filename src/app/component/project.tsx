@@ -13,11 +13,7 @@ const Project = () => {
   return (
     <div id="Project">
       <section className="text-gray-600 body-font ">
-        <div
-          data-aos="zoom-in-up"
-          data-aos-duration="2000"
-          className="container px-5 py-24 mx-auto"
-        >
+        <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-5xl  text-5xl font-serif font-bold title-font mb-4 text-gray-900">
               My
