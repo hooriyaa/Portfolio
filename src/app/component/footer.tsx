@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import { IoLogoYoutube } from "react-icons/io";
 import { FiInstagram } from "react-icons/fi";
-import fotterImage from "../../../public/assests/pictures/portfolio.png";
+import footerImage from "../../../public/assests/pictures/portfolio.png";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <Image
-            src={fotterImage}
+            src={footerImage}
             width={180}
             height={180}
             alt="Portfolio"

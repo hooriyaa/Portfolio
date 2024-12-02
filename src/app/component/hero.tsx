@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import heroImage from "../../../public/assests/pictures/pic.png";
 
 const Hero = () => {
   return (
@@ -60,7 +61,7 @@ const Hero = () => {
               alt="hero"
               width={500}
               height={500}
-              src={require("../../../public/assests/pictures/pic.png")}
+              src={heroImage}
             />
           </motion.div>
         </div>
