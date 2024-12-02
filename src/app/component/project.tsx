@@ -165,7 +165,7 @@ const Project = () => {
                   </p>
                   <Link
                     target="_blank"
-                    href={"https://ecommerce-site-by-hooriya.netlify.app/"}
+                    href={"https://e-commerce-site-by-hooriya.netlify.app/"}
                   >
                     <p className="leading-relaxed font-serif text-blue-500 hover:underline">
                       View Project..
