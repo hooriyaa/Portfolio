@@ -1,17 +1,17 @@
+"use client"
 import { IoMdCheckboxOutline } from "react-icons/io";
 
 const Skills = () => {
+
   return (
     <div id="Skills">
       <section className="text-gray-600 body-font">
-        <div
-          className="container px-5 py-19 mx-auto"
-        >
-          <div className="flex flex-col font-serif  text-center w-full mb-20">
-            <h2 className="text-xs text-blue-500 font-serif  tracking-widest font-medium title-font mb-1">
+        <div className="container px-5 py-19 mx-auto">
+          <div className="flex flex-col font-serif text-center w-full mb-20">
+            <h2 className="text-xs text-blue-500 font-serif tracking-widest font-medium title-font mb-1">
               SKILLS
             </h2>
-            <h1 className="sm:text-5xl text-5xl font-serif font-bold  title-font text-gray-900">
+            <h1 className="sm:text-5xl text-5xl font-serif font-bold title-font text-gray-900">
               My
               <span className="text-5xl text-blue-700 sm:text-5xl font-serif font-bold ml-[15px]">
                 Skills
@@ -20,7 +20,10 @@ const Skills = () => {
           </div>
           <div className="flex flex-wrap -m-4 -mt-[5rem]">
             {/* Skill */}
-            <div className="p-4 md:w-1/3 font-serif">
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -38,8 +41,13 @@ const Skills = () => {
                 </div>
               </div>
             </div>
+
             {/* Skill */}
-            <div className="p-4 md:w-1/3 font-serif ">
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -57,8 +65,13 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            {/* Skills */}
-            <div className="p-4 md:w-1/3 font-serif">
+
+            {/* Skill */}
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -76,8 +89,13 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            {/* Skills */}
-            <div className="p-4 md:w-1/3 font-serif">
+
+            {/* Skill */}
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -95,8 +113,13 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            {/* Skills */}
-            <div className="p-4 md:w-1/3 font-serif">
+
+            {/* Skill */}
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
@@ -114,8 +137,13 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            {/* Skills */}
-            <div className="p-4 md:w-1/3 font-serif">
+
+            {/* Skill */}
+            <div
+              className="p-4 md:w-1/3 font-serif"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">

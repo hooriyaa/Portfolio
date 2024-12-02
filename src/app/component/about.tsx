@@ -1,23 +1,42 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import aboutImage from "../../../public/assests/pictures/digital_girl_pic.jpg";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+    });
+  }, []);
+
   return (
     <div id="About">
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-col md:flex-row items-center px-5 py-8 md:py-24">
-          <div className="lg:w-1/2 mb-10 md:mb-0">
+          <div
+            className="lg:w-1/2 mb-10 md:mb-0"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
             <Image
               className="mx-auto w-[700px] h-[590px] rounded-full"
               alt="hero"
-              width={510}
-              height={490}
-              src={require("../../../public/assests/pictures/digital_girl_pic.jpg")}
+              width={500}
+              height={400}
+              src={aboutImage}
             />
           </div>
-          <div className="lg:w-1/2 lg:pl-12 flex font-serif  flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font font-serif  text-3xl md:text-5xl mb-4  font-bold text-gray-900">
+          <div
+            className="lg:w-1/2 lg:pl-12 flex font-serif flex-col md:items-start md:text-left items-center text-center"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <h1 className="title-font font-serif text-3xl md:text-5xl mb-4 font-bold text-gray-900">
               About
               <span className="text-3xl ml-3 md:text-5xl text-blue-700 font-serif font-bold">
                 Me
@@ -32,7 +51,7 @@ const About = () => {
               </p>
               <p className="mb-4">
                 I am a passionate Full Stack Developer with a backend focus and
-                a passion for Generative AI 🚀.I excel in creating scalable,
+                a passion for Generative AI 🚀. I excel in creating scalable,
                 efficient web solutions by integrating state-of-the-art
                 technologies and AI into enterprise-level applications.
               </p>
@@ -52,7 +71,6 @@ const About = () => {
                 scalable, and efficient software solutions tailored to meet your
                 business needs.
               </p>
-
               <p className="mb-4">
                 🛠 <span className="text-black">Technical Expertise:</span>
                 <br />
@@ -73,7 +91,7 @@ const About = () => {
                 together!
               </p>
               <span className="text-black">Email:👇</span>
-              <p className="mb-5 leading-relaxed font-serif  text-blue-500 hover:underline cursor-pointer">
+              <p className="mb-5 leading-relaxed font-serif text-blue-500 hover:underline cursor-pointer">
                 guujarmahnoor0312@gmail.com
               </p>
               <div className="flex justify-center">

@@ -6,7 +6,12 @@ const Contact = () => {
     <div id="Contact">
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 pb-20 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div
+            className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
             <iframe
               width="100%"
               height="100%"
@@ -36,7 +41,12 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <div
+            className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
             <h2 className="title-font sm:text-4xl font-serif  text-3xl mb-4 font-medium text-gray-900">
               Contact
             </h2>

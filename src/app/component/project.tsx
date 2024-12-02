@@ -24,7 +24,12 @@ const Project = () => {
           </div>
           <div className="flex flex-wrap -m-5 -mt-[5rem]">
             {/* Project */}
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt=" Facebook Login Page Clone"
@@ -55,7 +60,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt="Calculator Web App"
@@ -88,7 +98,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt=" Amazon Clone"
@@ -121,7 +136,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt=" E-commerce Website "
@@ -154,7 +174,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt=" E-commerce Website "
@@ -186,7 +211,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  sm:w-1/3 p-4 cursor-pointer">
+            <div
+              className="lg:w-1/3 sm:w-1/3 p-4 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
               <div className="flex relative">
                 <Image
                   alt=" E-commerce Website "
