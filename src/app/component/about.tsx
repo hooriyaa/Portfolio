@@ -94,7 +94,7 @@ const About = () => {
               <p className="mb-5 leading-relaxed font-serif text-blue-500 hover:underline cursor-pointer">
                 guujarmahnoor0312@gmail.com
               </p>
-              <div className="flex justify-center">
+              <div className="flex sm:justify-start justify-center">
                 <a target="_blank" href={"/assests/cv/Profile (4).pdf"}>
                   <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                     View CV

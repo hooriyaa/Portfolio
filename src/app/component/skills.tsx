@@ -1,8 +1,16 @@
-"use client"
+"use client";
 import { IoMdCheckboxOutline } from "react-icons/io";
 
-const Skills = () => {
+const skillsData = [
+  { name: "HTML", level: "100%" },
+  { name: "CSS", level: "90%" },
+  { name: "Javascript/Typescript", level: "85%" },
+  { name: "NEXT.JS", level: "80%" },
+  { name: "TAILWIND CSS", level: "90%" },
+  { name: "CANVA", level: "85%" },
+];
 
+const Skills = () => {
   return (
     <div id="Skills">
       <section className="text-gray-600 body-font">
@@ -19,148 +27,26 @@ const Skills = () => {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4 -mt-[5rem]">
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
+            {skillsData.map((skill, index) => (
+              <div key={skill.name} className="p-4 md:w-1/3 font-serif" data-aos="fade-up" data-aos-delay={index * 100}>
+                <div className="flex rounded-lg h-full p-8 flex-col">
+                  <div className="flex items-center mb-3">
+                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+                      <IoMdCheckboxOutline className="text-xl font-bold" />
+                    </div>
+                    <h2 className="text-gray-900 text-lg title-font font-medium">
+                      {skill.name}
+                    </h2>
                   </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    HTML
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[100%]"></div>
+                  <div className="flex-grow">
+                    <div className="relative h-1 w-full bg-gray-300">
+                      <div className="absolute bg-blue-500 h-1 rounded-xl" style={{ width: skill.level }}></div>
+                    </div>
+                    <p className="font-bold text-blue-500 text-right">{skill.level}</p>
                   </div>
-                  <p className="font-bold text-blue-500 text-right">100%</p>
                 </div>
               </div>
-            </div>
-
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    CSS
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[90%]"></div>
-                  </div>
-                  <p className="font-bold text-blue-500 text-right">90%</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    Javascript/Typescript
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[85%]"></div>
-                  </div>
-                  <p className="font-bold text-blue-500 text-right">85%</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    NEXT.JS
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[70%]"></div>
-                  </div>
-                  <p className="font-bold text-blue-500 text-right">70%</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    TAILWIND CSS
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[90%]"></div>
-                  </div>
-                  <p className="font-bold text-blue-500 text-right">90%</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Skill */}
-            <div
-              className="p-4 md:w-1/3 font-serif"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div className="flex rounded-lg h-full p-8 flex-col">
-                <div className="flex items-center mb-3">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-                    <IoMdCheckboxOutline className="text-xl font-bold" />
-                  </div>
-                  <h2 className="text-gray-900 text-lg title-font font-medium">
-                    CANVA
-                  </h2>
-                </div>
-                <div className="flex-grow">
-                  <div className="relative h-1 w-full bg-gray-300 ">
-                    <div className="absolute bg-blue-500 h-1 rounded-xl w-[85%]"></div>
-                  </div>
-                  <p className="font-bold text-blue-500 text-right">85%</p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
