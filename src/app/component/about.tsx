@@ -45,7 +45,7 @@ const About = () => {
             <div className="mb-8 leading-relaxed">
               <p className="mb-4 font-serif ">
                 👋 Hello! I am
-                <span className="text-black ml-3 font-serif ">
+                <span className="text-black ml-2 font-serif">
                   Hooriya Muhammad Fareed
                 </span>
               </p>
@@ -77,8 +77,11 @@ const About = () => {
                 <span className="text-black">Languages:</span> TypeScript,
                 JavaScript
                 <br />
-                <span className="text-black">Frameworks:</span> Next.js,
-                Tailwind CSS
+                <span className="text-black">Frameworks & Libraries:</span>{" "}
+                Next.js, Tailwind CSS, ShadCN UI, Framer Motion
+                <br />
+                <span className="text-black">Tools:</span> Clerk, Sanity,
+                Stripe,Figma
               </p>
               <p className="mb-4 font-serif ">
                 📬 Lets Collaborate: I am always excited to take on new
