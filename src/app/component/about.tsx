@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import aboutImage from "../../../public/assests/pictures/digital_girl_pic.jpg";
+import Link from "next/link";
 
 const About = () => {
   useEffect(() => {
@@ -111,11 +112,11 @@ const About = () => {
                 guujarmahnoor0312@gmail.com
               </p>
               <div className="flex sm:justify-start justify-center">
-                <a target="_blank" href={"/assests/cv/Profile (4).pdf"}>
+                <Link target="_blank" href={"/assests/cv/Profile (5).pdf"}>
                   <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                     View CV
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

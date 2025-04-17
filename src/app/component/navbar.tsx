@@ -39,13 +39,13 @@ const Navbar = () => {
 
        
         </nav>
-        <a target="_blank" href="/assests/cv/Profile (4).pdf">
+        <Link target="_blank" href={"/assests/cv/Profile (5).pdf"}>
             {/* CV Button */}
             <button className="mt-4 md:mt-0 bg-gray-100 py-2 px-4 rounded hover:bg-gray-200 flex items-center ">
               Download CV
               <AiOutlineCloudDownload className="ml-2 text-lg" />
             </button>
-          </a>
+          </Link>
       </header>
     </div>
   );
