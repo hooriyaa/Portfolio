@@ -23,14 +23,14 @@ const projects = [
     image: "/assests/projects/amazon_clone.png",
     title: "Amazon Clone",
     description:
-      " I recreated the Amazon homepage using only HTML and CSS,highlighting sleek design and responsive layouts. It is a powerful example of what can be achieved with pure front-end skills.",
+      " I recreated the Amazon homepage using only HTML and CSS, highlighting sleek design and responsive layouts. It is a powerful example of what can be achieved with pure front-end skills.",
     link: "https://amazon-clone-project-by-hooriya.netlify.app/",
   },
   {
     image: "/assests/projects/e-commerce_website.png",
     title: "E-commerce Website",
     description:
-      "  I developed an e-commerce platform that integrates product data for seamless display and management. This includes &apos;Add to Cart&apos; functionality and detailed product pages, alongside API routes for efficient server-side operations. The project leverages both static and dynamic pages to ensure optimal performance.",
+      "  I developed an e-commerce platform that integrates product data for seamless display and management. This includes 'Add to Cart' functionality and detailed product pages, alongside API routes for efficient server-side operations. The project leverages both static and dynamic pages to ensure optimal performance.",
     link: "https://e-commerce-site-by-hooriya.netlify.app/",
   },
   {
@@ -67,6 +67,13 @@ const projects = [
     description:
       "This interactive platform is built with Next.js, Tailwind CSS, and ShadCN. It features a custom AI chatbot for enhanced user interaction, smooth animations powered by Framer Motion, and a fully responsive UI, ensuring a seamless and engaging experience.",
     link: "https://agentic-world-by-hooriya.netlify.app/",
+  },
+  {
+    image: "/assests/projects/interview_prep_agent.jpg",
+    title: "Interview Preparation Agent",
+    description:
+      "I created an AI-powered Interview Preparation Agent using OpenAI Agents SDK, Gemini AI, and Streamlit. It provides real-time, intelligent answers to mock interview questions and helps users improve their communication skills in a fun and interactive way.",
+    link: "https://interview-prep-agent-by-hooriya.streamlit.app/",
   },
 ];
 

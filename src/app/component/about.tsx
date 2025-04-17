@@ -43,55 +43,68 @@ const About = () => {
               </span>
             </h1>
             <div className="mb-8 leading-relaxed">
-              <p className="mb-4 font-serif ">
+              <p className="mb-4 font-serif">
                 👋 Hello! I am
                 <span className="text-black ml-2 font-serif">
                   Hooriya Muhammad Fareed
                 </span>
               </p>
               <p className="mb-4">
-                I am a passionate Full Stack Developer with a backend focus and
-                a passion for Generative AI 🚀. I excel in creating scalable,
-                efficient web solutions by integrating state-of-the-art
-                technologies and AI into enterprise-level applications.
+                I am a passionate <strong>Frontend Developer</strong> with a
+                strong eye for design and a growing interest in Generative AI 🚀. I love building modern,
+                responsive, and scalable web experiences that bring ideas to
+                life!
               </p>
               <p className="mb-4">
-                🌟 Innovative Developer & Tech Enthusiast
+                🌟 Creative Developer & Tech Explorer
                 <br />
-                📚 Lifelong Learner Committed to Excellence
+                📚 Lifelong Learner Committed to Growth
                 <br />
-                🔧 Expert in Solving Complex Tech Challenges
+                🔧 Focused on Crafting Beautiful UI/UX
               </p>
               <p className="mb-4">
                 💼 <span className="text-black">Professional Overview:</span>
                 <br />
-                With a solid foundation in full-stack development, I excel at
-                crafting innovative applications that seamlessly integrate
-                Artificial Intelligence. My mission is to deliver robust,
-                scalable, and efficient software solutions tailored to meet your
-                business needs.
+                I specialize in frontend development using cutting-edge tools to
+                design sleek and user-friendly web applications. My focus is on
+                performance, accessibility, and user-centered design.
               </p>
               <p className="mb-4">
                 🛠 <span className="text-black">Technical Expertise:</span>
                 <br />
                 <span className="text-black">Languages:</span> TypeScript,
-                JavaScript
+                JavaScript, Python
                 <br />
                 <span className="text-black">Frameworks & Libraries:</span>{" "}
-                Next.js, Tailwind CSS, ShadCN UI, Framer Motion
+                Next.js, Tailwind CSS, ShadCN UI, Framer Motion, Streamlit
+                <br />
+                <span className="text-black">Databases:</span> SQLite3
                 <br />
                 <span className="text-black">Tools:</span> Clerk, Sanity,
-                Stripe,Figma
+                Stripe, Figma
               </p>
-              <p className="mb-4 font-serif ">
-                📬 Lets Collaborate: I am always excited to take on new
-                projects, collaborations, and discussions. Lets connect and
-                explore how we can work together to create something
-                exceptional!
-              </p>
-              <p className="mb-4 font-serif ">
-                Ready to elevate your web presence? Lets make it happen
+
+              <div className="mb-4">
+                <p>🚀 What I Offer:</p>
+                <ul className="list-disc list-inside mt-2 text-left">
+                  <li>Clean, maintainable, and scalable code</li>
+                  <li>Seamless user experiences & fast load times</li>
+                  <li>Mobile-first & responsive designs</li>
+                  <li>UI animations and modern design aesthetics</li>
+                  <li>AI-powered Interview Preparation Agent</li>
+                  <li>Password Generator & Unit Converter tools</li>
+                  <li>Conversational Chatbot features</li>
+                  <li>User-friendly utility web apps using Python & Streamlit</li>
+                </ul>
+              </div>
+
+              <p className="mb-4 font-serif">
+                📬 Lets Collaborate: I am always open to exciting new projects,
+                ideas, and teamwork. Lets connect and build something amazing
                 together!
+              </p>
+              <p className="mb-4 font-serif">
+                Ready to elevate your web presence? Lets make it happen!
               </p>
               <span className="text-black">Email:👇</span>
               <p className="mb-5 leading-relaxed font-serif text-blue-500 hover:underline cursor-pointer">
